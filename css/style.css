@@ -1,0 +1,168 @@
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+/* font end*/
+/* common start*/
+body{
+	margin: 0;
+	padding:0;
+	font-family:'Playfair Display', serif;
+	font-size: 16px;
+	font-weight:400 ;
+	color:#626262;
+}
+/* common end*/
+/* header start*/
+header{
+	/*border: 1px solid;*/
+	padding: 20px 0;
+}
+.container{
+	margin:0 auto;
+	width:90%;
+	/*border:1px solid;*/
+	overflow: hidden;
+}
+.logo{
+    margin-top: 8px;
+	width:13%;
+    /*border: 1px solid;*/
+	float:left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+width:65%;
+	float:right;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin:0px 50px;
+	padding: 3px 3px;
+	color:#626262;
+	text-decoration: none;
+	text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #222222;
+}
+/* header end*/
+/* banner start*/
+.banner{}
+.b_img{}
+.b_img img{
+	width: 100%;
+}
+/* banner end*/
+/* getaway start*/
+.getaway{}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+}
+.g_content{
+	padding:80px 0 100px;
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+/* getaway end*/
+/* banner start*/
+.blog{
+padding: 80px 0 100px;
+}
+.b_wrapper{
+	overflow: hidden;
+}
+.single{
+	margin-bottom: 50px;
+width: 47%;
+/*border: 1px solid red;)*/
+float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 20px;
+	width: 100%;
+}
+/* banner end*/
+/*news start*/
+.news{
+	background-color: #ddd;
+	min-width: 400px;
+}
+/*news end*/
+.load{
+	padding: 80px 0 80px;
+	text-align: center;
+}
+.load button{
+	width: 165px;
+	height: 60px;
+	font-family:'Playfair Display', serif;
+	font-size: 20px;
+	font-weight:400 ;
+	color:#626262;
+	background-color: transparent;
+	border: 1px solid #626262;
+	transition: .3s;
+}
+.load button:hover{
+	background-color:#626262;
+	color: white;
+}
+.terms{
+	float: left;
+}
+.terms ul li{
+	float: left;
+	list-style: none;
+}
+.terms ul li a{
+text-decoration: none;
+display: inline-block;
+}
+.social{
+	float: right;
+}
+.social ul li{
+	float: left;
+	list-style: none;
+}
+.social ul li a{
+text-decoration: none;
+display: inline-block;
+}
